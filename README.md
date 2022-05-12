@@ -13,7 +13,9 @@ Protocol Buffers (Protobuf) is a free and open-source cross-platform data format
 ## Application Setup
 
 To run the application file:
+
     go run server.go
 
 To create proto file:
+
     protoc --go_out=. echo.proto
